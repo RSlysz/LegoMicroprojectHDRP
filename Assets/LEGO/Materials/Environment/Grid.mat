@@ -25,6 +25,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_5A3AAC1C:
+        m_Texture: {fileID: 2800000, guid: 07f4da849db3514448dfbfda8983c2b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A78C881C:
+        m_Texture: {fileID: 2800000, guid: 86f2c12c957fe324c9f4cb1e6aae9837, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_AACC0C10:
+        m_Texture: {fileID: 2800000, guid: fd06ce4a57423de42a388f5fa1fb94f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_D0B1234C:
         m_Texture: {fileID: 2800000, guid: f5163cd4b4bdc425c90fb58a85de0e03, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -66,8 +78,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_31F110AC: 16
+    - Vector1_645D382F: 3.56
     - Vector1_8434C36B: 0
-    - Vector1_8D395212: 0.5
+    - Vector1_8D395212: 0.75
+    - Vector1_DA0F1CDA: 7.5
+    - Vector1_F07563BC: 1
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
@@ -118,7 +134,12 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_A552F83B: {r: 1, g: 1, b: 1, a: 1}
+    - Color_3A9D8708: {r: 0.78431374, g: 0, b: 0, a: 1}
+    - Color_41D38664: {r: 0, g: 0.37254897, b: 0.6784314, a: 1}
+    - Color_A43A04BC: {r: 0.345098, g: 0.67058825, b: 0.27450976, a: 1}
+    - Color_A552F83B: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0}
+    - Color_D9FA9676: {r: 0.9529411, g: 0.8, b: 0, a: 1}
+    - Color_FBA1071: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
