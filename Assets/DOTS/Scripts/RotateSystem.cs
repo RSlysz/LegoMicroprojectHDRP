@@ -23,11 +23,12 @@ namespace LegoDOTS
     {
         protected override void OnUpdate()
         {
-            var delta = quaternion.RotateY(math.radians(Time.DeltaTime * 360));
+            var delta = math.radians(Time.DeltaTime * 360);
 
-            Entities.WithAll<Rotate>().ForEach((ref Rotation rotation) =>
+            Entities.ForEach((ref Rotation rotation, ref Rotate rotate) =>
             {
-                rotation.Value = math.normalize(math.mul(rotation.Value, delta));
+                rotate.speed += rotate.acceleration;
+                rotation.Value = math.normalize(math.mul(rotation.Value, quaternion.RotateY(delta * rotate.speed)));
             }).ScheduleParallel();
         }
     }

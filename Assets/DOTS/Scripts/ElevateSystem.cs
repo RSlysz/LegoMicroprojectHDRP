@@ -7,8 +7,6 @@ namespace LegoDOTS
 {
     public class ElevateSystem : SystemBase
     {
-        const float k_MinY = -15f;
-        const float k_MaxY = -6.5f; // statue height
 
         Transform playerPosition;
 
@@ -26,7 +24,7 @@ namespace LegoDOTS
             {
                 var dist = math.distancesq(new float2(entityPosition.Value.x, entityPosition.Value.z), position);
                 var coef = dist > 31.416 ? 0f : math.min(1f, 0.525f + .525f * math.cos(.1f * dist)); 
-                entityPosition.Value.y = k_MinY + (k_MaxY - k_MinY) * coef;
+                entityPosition.Value.y = elevate.minY + (elevate.maxY - elevate.minY) * coef;
             }).ScheduleParallel();
         }
     }
