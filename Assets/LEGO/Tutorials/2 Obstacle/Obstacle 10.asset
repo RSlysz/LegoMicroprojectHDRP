@@ -160,7 +160,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 743fc35f8da11d34ca3ef73a7c5ccdaa, type: 2}
-        m_TargetAssemblyTypeName: 
         m_MethodName: PingFolderOrAsset
         m_Mode: 5
         m_Arguments:

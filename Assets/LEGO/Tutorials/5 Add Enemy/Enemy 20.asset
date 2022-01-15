@@ -15,21 +15,6 @@ MonoBehaviour:
   m_ReferenceHolder: {fileID: 0}
   m_Criterion: {fileID: 646717700190218214}
   m_ReferenceName: '1: Shoot (GameObject)'
---- !u!114 &-4550398627731558843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 2: Shoot (ShootAction)'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: 646717700190218214}
-  m_ReferenceName: '2: Shoot (ShootAction)'
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +132,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 743fc35f8da11d34ca3ef73a7c5ccdaa, type: 2}
-        m_TargetAssemblyTypeName: 
         m_MethodName: PingFolderOrAsset
         m_Mode: 5
         m_Arguments:
@@ -159,7 +143,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 11400000, guid: 743fc35f8da11d34ca3ef73a7c5ccdaa, type: 2}
-        m_TargetAssemblyTypeName: 
         m_MethodName: EnableBrickBuildingTool
         m_Mode: 1
         m_Arguments:
@@ -192,6 +175,5 @@ MonoBehaviour:
     - m_PrefabParent: {fileID: 5952549877573738461, guid: 64d1d089ce11e4eadaa32af6d2e3d1fd,
         type: 3}
       m_FutureReference: {fileID: -8841937286169209548}
-    - m_PrefabParent: {fileID: 5963510644016963638, guid: 64d1d089ce11e4eadaa32af6d2e3d1fd,
-        type: 3}
-      m_FutureReference: {fileID: -4550398627731558843}
+    - m_PrefabParent: {fileID: 0}
+      m_FutureReference: {fileID: 0}
